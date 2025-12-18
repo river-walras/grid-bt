@@ -9,4 +9,5 @@ HFT Grid Backtest Task
 关键文件
 --------
 - `src/engine.py`：含数据加载、Numba 加速的逐秒撮合网格策略。
-- `main.py`：主函数
+- `src/utils.py`：辅助函数。
+- `src/vol_engine.py`：含波动率引擎的撮合网格策略。
